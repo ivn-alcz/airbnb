@@ -1,0 +1,9 @@
+SELECT
+	neighbourhood,
+	count(neighbourhood) as number_per_hood
+FROM
+	sfo_listings
+GROUP BY
+	neighbourhood
+ORDER BY
+	number_per_hood DESC;

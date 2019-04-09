@@ -1,0 +1,6 @@
+SELECT
+	MIN(price) as lowest_price,
+	calender_date
+FROM
+sfo_calendar
+GROUP BY 2;
